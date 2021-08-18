@@ -284,6 +284,11 @@ section .portfolio-container {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  section.about-section .my-pic {
+    flex-shrink: 1;
+  }
+}
 
 @media screen and (max-width: 1159px) {
   .primary-header-text-container h1 {
@@ -335,9 +340,57 @@ section .portfolio-container {
   }
 }
 
+@media screen and (max-width: 700px) {
+  h3.experience-header.section-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .experience-section .section-container {
+    flex-direction: column;
+  }
+
+  .firm-name-container {
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  h3.education-header.section-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .education-section .section-container {
+    flex-direction: column;
+  }
+
+  .education-name-container {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
 @media screen and (max-width: 569px) {
   .primary-header-text-container h1 {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .thanks-nes-css {
+    margin-bottom: 2rem;
+  }
+
+  .footer-icon-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -347,8 +400,3 @@ section .portfolio-container {
   }
 }
 
-@media screen and (max-width: 1200px) {
-  section.about-section .my-pic {
-    flex-shrink: 1;
-  }
-}
