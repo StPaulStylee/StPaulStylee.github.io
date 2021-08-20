@@ -259,6 +259,12 @@ section .portfolio-container {
   list-style: square;
 }
 
+.my-badge {
+  display: block;
+  height: auto;
+  max-height: 145px;
+}
+
 /* ---------------------------- Footer -------------------------------- */
 .footer-container {
   display: flex;
@@ -335,8 +341,27 @@ section .portfolio-container {
     margin: 0 0 2rem 0;
   }
 
-  .portfolio-item.pong {
+  .portfolio-header {
+    text-align: center;
+  }
+
+  .portfolio-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 1rem;
+  }
+
+  .portfolio-title {
+    align-self: center;
+  }
+
+  .portfolio-list {
+    align-self: center;
+  }
+
+  .my-badge {
+    margin-top: 2rem;
   }
 }
 
