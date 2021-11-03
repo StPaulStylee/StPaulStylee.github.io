@@ -88,6 +88,7 @@ section .section-container {
 
 .personal-link {
   color: var(--white);
+  text-decoration: underline;
 }
 
 .portfolio-section .personal-link:hover {
