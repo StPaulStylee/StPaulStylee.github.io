@@ -3,47 +3,128 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* --------------------------- Utility Classes & Variables & Globals ----------------------------------- */
@@ -57,7 +138,7 @@ body {
 }
 
 .all-caps {
-  text-transform: uppercase;;
+  text-transform: uppercase;
 }
 
 main {
@@ -114,9 +195,15 @@ section .section-container {
 }
 
 .blue-grid {
-  background: linear-gradient(to right, transparent 3px, #413FEB 5px, transparent 6.5px), linear-gradient(to bottom, transparent 3px, #413FEB 5px, transparent 6.5px);
-  background-size: 10px 10px; 
-  border: 1px solid #413FEB; 
+  background: linear-gradient(
+      to right,
+      transparent 3px,
+      #413feb 5px,
+      transparent 6.5px
+    ),
+    linear-gradient(to bottom, transparent 3px, #413feb 5px, transparent 6.5px);
+  background-size: 10px 10px;
+  border: 1px solid #413feb;
   height: 80%;
   position: relative;
   width: 100%;
@@ -134,7 +221,7 @@ div.primary-header-text-container {
 .primary-header-text-container h1 {
   display: inline-block;
   font-size: 68px;
-  background: linear-gradient(to bottom, #CA8B25 47%, #8B2F00 68%);
+  background: linear-gradient(to bottom, #ca8b25 47%, #8b2f00 68%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
@@ -266,6 +353,18 @@ section .portfolio-container {
   max-height: 145px;
 }
 
+/* ---------------------------- Learning -------------------------------- */
+.learning-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.learning-disclaimer {
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
 /* ---------------------------- Footer -------------------------------- */
 .footer-container {
   display: flex;
@@ -331,7 +430,7 @@ section .portfolio-container {
   div.nav-item-container.nav-home {
     margin-left: unset;
   }
-  
+
   div.nav-item-container.nav-portfolio {
     margin-right: unset;
   }
@@ -429,4 +528,3 @@ section .portfolio-container {
     font-size: 16px;
   }
 }
-
