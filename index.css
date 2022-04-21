@@ -326,9 +326,6 @@ section.about-section .my-pic {
 }
 
 /* ------------------------------ Portfolio ----------------------------------- */
-section.portfolio-section.main-section.nes-container {
-  margin-bottom: 0rem;
-}
 
 section .portfolio-container {
   display: flex;
@@ -354,6 +351,10 @@ section .portfolio-container {
 }
 
 /* ---------------------------- Learning -------------------------------- */
+section.learning-section.main-section.nes-container {
+  margin-bottom: 0rem;
+}
+
 .learning-container {
   display: flex;
   flex-wrap: wrap;
