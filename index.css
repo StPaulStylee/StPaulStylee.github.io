@@ -291,7 +291,7 @@ section.about-section div {
 }
 
 section.about-section .my-pic {
-  background-image: url(./images//me.jpg);
+  background-image: url(./images//me.png);
   background-repeat: no-repeat;
   background-size: contain;
   flex-shrink: 4;
