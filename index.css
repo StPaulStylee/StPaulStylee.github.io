@@ -301,6 +301,7 @@ section.about-section .my-pic {
 /* --------------------------------- Experience --------------------------------- */
 
 .firm-name-container {
+  width: 30%;
   padding-right: 1rem;
 }
 
@@ -312,6 +313,7 @@ section.about-section .my-pic {
 
 .experience-description {
   flex-shrink: 3;
+  width: 70%;
 }
 
 /* ------------------------------- Education ----------------------------------- */
